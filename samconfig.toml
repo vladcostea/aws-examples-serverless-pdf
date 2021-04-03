@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-examples-serverless-pdf"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-qitj74bk3rc5"
+s3_prefix = "aws-examples-serverless-pdf"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
